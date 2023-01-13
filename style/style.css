@@ -1,13 +1,30 @@
 *{
     margin:0;padding:0;
     box-sizing: border-box;
+<<<<<<< HEAD
     text-decoration: none;
 }
 
+=======
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+<<<<<<< HEAD
+>>>>>>> 049c4326b1b98ae2a167c04c348690e75adabf59
 html {
     height: 100%;
     background: no-repeat;
     background-image: linear-gradient(180deg, #5D626C 55%, #EEC754 45%);
+<<<<<<< HEAD
+=======
+=======
+body {
+    height: 100vh;
+    background: no-repeat;
+    background: linear-gradient(180deg, #5D626C 55%, #EEC754 45%);
+>>>>>>> 265afc6568491817a23fd485241a550d8e8f4384
+>>>>>>> 049c4326b1b98ae2a167c04c348690e75adabf59
     background-size: cover;
     background-position: center
 }
@@ -77,11 +94,29 @@ header .navbar ul li:hover > ul{
 }
 
 
+<<<<<<< HEAD
 /* @media(max-width:991px){
+=======
+<<<<<<< HEAD
+/* @media(max-width:991px){
+=======
+
+
+
+
+
+
+@media(max-width:991px){
+>>>>>>> 265afc6568491817a23fd485241a550d8e8f4384
+>>>>>>> 049c4326b1b98ae2a167c04c348690e75adabf59
 
     header{
         padding: 20px;
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 049c4326b1b98ae2a167c04c348690e75adabf59
 } */
 
 /* Starting content section */
@@ -91,16 +126,25 @@ content{
     display: flex;
     position: relative;
     top:25%; left:20%;
+<<<<<<< HEAD
     min-height: 50vh;
     width: 85%;
     height: 90%;
+=======
+    width: 85%;
+>>>>>>> 049c4326b1b98ae2a167c04c348690e75adabf59
     transform: translate(-15%, 60%);
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 content .chef{
+<<<<<<< HEAD
     width: 35%;
     height: 100%;
+=======
+    width: 500px;
+    height: 500px;
+>>>>>>> 049c4326b1b98ae2a167c04c348690e75adabf59
 }
 
 content .body_first .description{
@@ -117,6 +161,7 @@ content .body_first .description{
 
 .description #first_text{
     text-align: center;
+<<<<<<< HEAD
     font-size: 30px;
     font-weight: bolder;
     margin-bottom: 2%;
@@ -153,6 +198,13 @@ hr{
     width: 17%;
     height: auto;
 }
+=======
+}
+
+.description #second_text
+
+
+>>>>>>> 049c4326b1b98ae2a167c04c348690e75adabf59
 
 
 
@@ -162,8 +214,18 @@ hr{
 /* body .body_first{
     position: fixed;
     top:25vh; left: 25vh;
+<<<<<<< HEAD
+=======
+    background-color: linear-gradient(180deg, #EEC754 45%, #5D626C 55%);
+>>>>>>> 049c4326b1b98ae2a167c04c348690e75adabf59
     display: flex;
     width: 100vh;
     height: 55vh; */
 /* } */
 
+<<<<<<< HEAD
+=======
+=======
+}
+>>>>>>> 265afc6568491817a23fd485241a550d8e8f4384
+>>>>>>> 049c4326b1b98ae2a167c04c348690e75adabf59
