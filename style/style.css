@@ -71,18 +71,11 @@ header .navbar ul li:hover > ul{
 
 .logo{
     position: relative;
-    padding-left:
-    width 50px;
+    padding-left: 0;
+    width: 40px;
     height: 50px;
 }
 
-
-/* @media(max-width:991px){
-
-    header{
-        padding: 20px;
-    }
-} */
 
 /* Starting content section */
 
@@ -90,16 +83,16 @@ header .navbar ul li:hover > ul{
 content{
     display: flex;
     position: relative;
-    top:25%; left:20%;
     min-height: 50vh;
-    width: 85%;
-    height: 90%;
-    transform: translate(-15%, 60%);
+    width: 90%;
+    height: 100%;
+    transform: translate(5%, 50%);
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 content .chef{
-    width: 30%;
+    transform: translate(-15%);
+    width: 35%;
     height: 95%;
 }
 
@@ -107,11 +100,12 @@ content .body_first .description{
     background-color: #fff;
     display: flex;
     flex-direction: column;
-    padding: 10px 15px;
+    padding: 0px 10px;
     border-radius: 5%;
+    margin:15px solid;
     position: fixed;
-    left:28%;top:10%;
-    height: 85%;width: 68%;
+    left:25%;top:10%;
+    height: 80%;width: 70%;
     font-size: 20px;
 }
 
@@ -129,9 +123,7 @@ hr{
 
 .description #second_text,#third_text,#forth_text{
     margin-top: 2%;
-    text-align: left;
     font-weight: lighter;
-    text-align:left
 }
 
 .description .odin_face{
@@ -141,15 +133,14 @@ hr{
 }
 
 .odin_face:hover,.chef:hover,.logo:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
     transition: all 2s;
 }
-.porridge:hover{
-    transform: scale(3);
+.image_recipe:hover{
+    transform: scale(2);
     transition: all 3s;
 }
-.description .porridge{
-    /* margin-left: 40%; */
+.description .image_recipe{
     width: 25%;
     height: auto;
 }
@@ -160,14 +151,15 @@ hr{
     width: 100%;
 }
 
-.recipe .porridge{
+.recipe .image_recipe{
     align-items: left;
     justify-content: left;
 
 }
-.porridge {
+.image_recipe {
     margin-top: 50px;
-    width: 250px;
+    max-width: 250px;
+    max-height: 250px;
 }
 .recipe_text{
     display: flex;
@@ -176,20 +168,14 @@ hr{
 }
 .recipe_text #second_text{
     width: 60%;
+    padding-right: 25px;
 }
 
-.recipe_text #third_text{
-    margin-left: 10px;
+.ul_contact{
+    list-style: none;
+
 }
-
-
-
-
-/* body .body_first{
-    position: fixed;
-    top:25vh; left: 25vh;
-    display: flex;
-    width: 100vh;
-    height: 55vh; */
-/* } */
+.recipe_text li img{
+    width: 50px;
+}
 
